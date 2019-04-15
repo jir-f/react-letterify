@@ -4,12 +4,13 @@ import Letterify from './lib/Letterify';
 class App extends Component<any, any>{
   constructor(props: any) {
     super(props);
-    this.state={animate: false};
+    this.state={animate: false, animate2: false};
   }
 
   buttonClick = () => {
     this.setState({
-      animate: true
+      animate: !this.state.animate,
+      animate2: !this.state.animate2
     });
   }
   render() {
@@ -20,12 +21,31 @@ class App extends Component<any, any>{
               styleClasses={['lettterify-me', 'test2', 'test3']}
               letterifyString={'Test letterify component'}
               animate={this.state.animate}
-              delay={10}
-              speed={10}
+              delay={0.1}
+              speed={0.3}
+              translateValue={40}
+              color={'0077be'}
               direction={'up'}
           />
         <button className="show_button" onClick={() => this.buttonClick()}>
             show
+        </button>
+        <button className="show_button" onClick={() => this.buttonClick()}>
+            remove
+        </button>
+
+        <Letterify 
+              styleClasses={['lettterify-me', 'test2', 'test3']}
+              letterifyString={'Test letterify component'}
+              animate={this.state.animate2}
+              speed={0.2}
+              direction={'right'}
+          />
+        <button className="show_button" onClick={() => this.buttonClick()}>
+            show
+        </button>
+        <button className="show_button" onClick={() => this.buttonClick()}>
+            remove
         </button>
       </div>
     );
