@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { LetterifyStyle } from './Styled-Letterify';
 
 /// <reference path="./interface.d.ts"/>
-/// <reference path="./style.d.ts"/>
 
 export default class Letterify extends Component<LetterifyProps, LetterifyState>{
 	constructor(props: LetterifyProps) {
@@ -21,7 +20,7 @@ export default class Letterify extends Component<LetterifyProps, LetterifyState>
 		return ({
 			opacity: nextProps.animate ? 1 : 0,
 			direction: nextProps.direction,
-			speed: nextProps.speed,
+			speed: nextProps.speed ? nextProps.speed : 5,
 			delay: nextProps.delay ? nextProps.delay : 0.1,
 			directionAttrs: directionValues,
 			color: nextProps.color ? `#${nextProps.color}` : '#000000'
@@ -66,7 +65,7 @@ export default class Letterify extends Component<LetterifyProps, LetterifyState>
 			});
 			return result;
 		} else {
-			return ('no__class');
+			return ('no__styleclass');
 		}
 	}
 

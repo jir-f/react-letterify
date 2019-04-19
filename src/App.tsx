@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Letterify from './lib/Letterify';
+import Example from './view/example';
 
 class App extends Component<any, any>{
   constructor(props: any) {
@@ -17,7 +17,8 @@ class App extends Component<any, any>{
     return (
       <div className="react-letterify">
         <h1>React letterify</h1>
-        <Letterify 
+        <Example/>
+        {/* <Letterify 
               styleClasses={['lettterify-me', 'test2', 'test3']}
               letterifyString={'Test letterify component'}
               animate={this.state.animate}
@@ -35,18 +36,16 @@ class App extends Component<any, any>{
         </button>
 
         <Letterify 
-              styleClasses={['lettterify-me', 'test2', 'test3']}
               letterifyString={'Test letterify component'}
               animate={this.state.animate2}
               speed={0.2}
-              direction={'right'}
           />
         <button className="show_button" onClick={() => this.buttonClick()}>
             show
         </button>
         <button className="show_button" onClick={() => this.buttonClick()}>
             remove
-        </button>
+        </button> */}
       </div>
     );
   }
