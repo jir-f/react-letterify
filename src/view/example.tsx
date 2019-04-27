@@ -33,6 +33,7 @@ export default class Example extends Component<ExampleProps, ExampleState>{
   render() {
     return (
       <div className='example'>
+      
         <Input 
           inputString={this.state.inputString}
           handleInputChange={this.handleChange}
@@ -48,10 +49,10 @@ export default class Example extends Component<ExampleProps, ExampleState>{
               direction={'up'}
           />
         <button className="show_button" onClick={() => this.buttonClick()}>
-            show
+          show
         </button>
         <button className="show_button" onClick={() => this.buttonClick()}>
-            remove
+          remove
         </button>
       </div>
     );
