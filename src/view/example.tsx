@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Input from './components/input';
 import { Letterify } from '../lib';
 
-
 interface ExampleProps {
 }
 
@@ -36,24 +35,29 @@ export default class Example extends Component<ExampleProps, ExampleState>{
       
         <Input 
           inputString={this.state.inputString}
+          placeholder={"String to animate"}
           handleInputChange={this.handleChange}
         />
-        <Letterify 
-              styleClasses={['lettterify-me', 'test2', 'test3']}
-              letterifyString={this.state.inputString}
-              animate={this.state.animate}
-              delay={0.1}
-              speed={0.3}
-              translateValue={40}
-              color={'0077be'}
-              direction={'up'}
-          />
+        <Directions 
+          options= {DirectionOptions}
+          currentOption={"inplace"}
+        />
         <button className="show_button" onClick={() => this.buttonClick()}>
           show
         </button>
         <button className="show_button" onClick={() => this.buttonClick()}>
           remove
         </button>
+        <Letterify 
+            styleClasses={['lettterify-me', 'test2', 'test3']}
+            letterifyString={this.state.inputString}
+            animate={this.state.animate}
+            delay={0.1}
+            speed={0.3}
+            translateValue={40}
+            color={'0077be'}
+            direction={'up'}
+        />
       </div>
     );
   }

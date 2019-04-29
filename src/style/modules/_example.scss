@@ -4,4 +4,21 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 50vw;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.letterify{
+  &__options{
+    &-directions{
+      width: 100%;
+      flex-direction: row;
+      // align-items: center;
+      // justify-content: center;
+    }
+  }
+  &__checkbox{
+    width: 25%;
+  }
 }
