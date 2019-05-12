@@ -8,10 +8,10 @@ export default class Directions extends Component<DirectionProps, DirectionState
     return this.props.options.map((item, key) => {
       return (
         <Checkbox 
-        label={item.optionLabel}
-        value={item.optionValue}
-        checked={this.props.currentOption === item.optionValue ? true : false}
-        key={key}
+          label={item.optionLabel}
+          value={item.optionValue}
+          checked={this.props.currentOption === item.optionValue ? true : false}
+          key={key}
         />
       );
     });
@@ -19,8 +19,11 @@ export default class Directions extends Component<DirectionProps, DirectionState
 
   render(){
     return(
-      <div className="letterify__options-directions">
-        {this.renderOptions()}
+      <div className="letterify__options_directions">
+        <h4>Direction</h4>
+        <div className="letterify__options_directions-checkboxes">
+          {this.renderOptions()}
+        </div>
       </div>
     );
   }

@@ -7,6 +7,9 @@ interface ExampleProps {
 
 interface ExampleState {
   inputString: string,
+  currentDelay: number,
+  currentSpeed: number,
+  currentTranslate: number,
   animate: boolean
 }
 
@@ -15,12 +18,32 @@ export default class Example extends Component<ExampleProps, ExampleState>{
     super(props);
     this.state = {
       inputString: '',
+      currentDelay: 0.1,
+      currentSpeed: 0.3,
+      currentTranslate: 40,
       animate: false
     };  
   }
 
   handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    this.setState({inputString: e.target.value});
+    const key = e.target.name;
+    const value = e.target.value;
+    switch(key){
+      case 'animatedText':
+        this.setState({ inputString: value });
+        break;
+      case 'delay':
+        this.setState({ currentDelay: +value });
+        break;
+      case 'speed':
+        this.setState({ currentSpeed: +value });
+        break;
+      case 'translate':
+        this.setState({ currentTranslate: +value });
+        break;
+      default:
+        break;
+    }
   }
 
   buttonClick = () => {
@@ -32,15 +55,19 @@ export default class Example extends Component<ExampleProps, ExampleState>{
   render() {
     return (
       <div className='example'>
-      
         <Input 
           inputString={this.state.inputString}
           placeholder={"String to animate"}
           handleInputChange={this.handleChange}
+          inputName='animatedText'
         />
-        <Directions 
-          options= {DirectionOptions}
-          currentOption={"inplace"}
+        <Options 
+          currentDelay={this.state.currentDelay}
+          handleDelayChange={this.handleChange}
+          currentSpeed={this.state.currentSpeed}
+          handleSpeedChange={this.handleChange}
+          currentTranslate={this.state.currentTranslate}
+          handleTranslateChange={this.handleChange}
         />
         <button className="show_button" onClick={() => this.buttonClick()}>
           show
@@ -49,14 +76,14 @@ export default class Example extends Component<ExampleProps, ExampleState>{
           remove
         </button>
         <Letterify 
-            styleClasses={['lettterify-me', 'test2', 'test3']}
-            letterifyString={this.state.inputString}
-            animate={this.state.animate}
-            delay={0.1}
-            speed={0.3}
-            translateValue={40}
-            color={'0077be'}
-            direction={'up'}
+          styleClasses={['lettterify-me', 'test2', 'test3']}
+          letterifyString={this.state.inputString}
+          animate={this.state.animate}
+          delay={this.state.currentDelay}
+          speed={this.state.currentSpeed}
+          translateValue={this.state.currentTranslate}
+          color={'0077be'}
+          direction={'up'}
         />
       </div>
     );

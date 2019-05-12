@@ -11,14 +11,21 @@
 
 .letterify{
   &__options{
-    &-directions{
+    width: 100%;
+    &_directions{
       width: 100%;
-      flex-direction: row;
-      // align-items: center;
-      // justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0;
+
+      &-checkboxes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+        justify-content: space-around;
+      }
     }
-  }
-  &__checkbox{
-    width: 25%;
   }
 }
