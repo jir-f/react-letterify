@@ -44,6 +44,8 @@ body {
   &__checkbox{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
+
     &-input{
       visibility: hidden;
     }
@@ -81,7 +83,7 @@ body {
       &:after{
         content: '';
         position: absolute;
-        top: 25%;
+        top: 24%;
         left: -17px;
         opacity: 0;
         transition: linear 0.2s;
@@ -95,7 +97,7 @@ body {
   }
 }
 
-//*********************DESKTOP**********************//
+//*********************1920**********************//
 
 h1,.h1 {
   font-size: $h1XL;

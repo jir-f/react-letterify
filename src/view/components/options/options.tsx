@@ -10,7 +10,8 @@ export default class Example extends Component<OptionsProps, OptionsState>{
       <div className="letterify__options">
         <Directions 
           options= {DirectionOptions}
-          currentOption={"inplace"}
+          currentOption={this.props.currentDirection}
+          handler={this.props.directionHandler}
         />
         <Input 
           inputString={`${this.props.currentDelay}`}

@@ -1,7 +1,8 @@
 export interface CheckboxProps {
   label: string,
   value: string,
-  checked: boolean
+  checked: boolean,
+  handler(option: string) :void
 }
 
 export interface CheckboxState {

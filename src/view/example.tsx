@@ -2,22 +2,12 @@ import React, { Component } from 'react';
 import Input from './components/input';
 import { Letterify } from '../lib';
 
-interface ExampleProps {
-}
-
-interface ExampleState {
-  inputString: string,
-  currentDelay: number,
-  currentSpeed: number,
-  currentTranslate: number,
-  animate: boolean
-}
-
 export default class Example extends Component<ExampleProps, ExampleState>{
   constructor(props: ExampleProps){
     super(props);
     this.state = {
       inputString: '',
+      currentDirection: 'inplace',
       currentDelay: 0.1,
       currentSpeed: 0.3,
       currentTranslate: 40,
@@ -46,6 +36,12 @@ export default class Example extends Component<ExampleProps, ExampleState>{
     }
   }
 
+  handleDirection = (option: string) => {
+    this.setState({
+      currentDirection: option
+    } as ExampleState);
+  }
+
   buttonClick = () => {
     this.setState({
       animate: !this.state.animate
@@ -68,6 +64,8 @@ export default class Example extends Component<ExampleProps, ExampleState>{
           handleSpeedChange={this.handleChange}
           currentTranslate={this.state.currentTranslate}
           handleTranslateChange={this.handleChange}
+          currentDirection={this.state.currentDirection}
+          directionHandler={this.handleDirection}
         />
         <button className="show_button" onClick={() => this.buttonClick()}>
           show
@@ -79,11 +77,11 @@ export default class Example extends Component<ExampleProps, ExampleState>{
           styleClasses={['lettterify-me', 'test2', 'test3']}
           letterifyString={this.state.inputString}
           animate={this.state.animate}
+          direction={this.state.currentDirection}
           delay={this.state.currentDelay}
           speed={this.state.currentSpeed}
           translateValue={this.state.currentTranslate}
           color={'0077be'}
-          direction={'up'}
         />
       </div>
     );

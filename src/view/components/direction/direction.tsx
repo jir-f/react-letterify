@@ -11,6 +11,7 @@ export default class Directions extends Component<DirectionProps, DirectionState
           label={item.optionLabel}
           value={item.optionValue}
           checked={this.props.currentOption === item.optionValue ? true : false}
+          handler={this.props.handler}
           key={key}
         />
       );

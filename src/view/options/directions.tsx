@@ -1,7 +1,7 @@
 export const DirectionOptions = [
   {
-    optionLabel: "Top",
-    optionValue: "top"
+    optionLabel: "Up",
+    optionValue: "up"
   },
   {
     optionLabel: "Down",
