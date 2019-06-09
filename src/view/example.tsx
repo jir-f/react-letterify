@@ -51,7 +51,19 @@ export default class Example extends Component<ExampleProps, ExampleState>{
   render() {
     return (
       <div className='example'>
+        <h1>React letterify</h1>        
+        <Letterify 
+          styleClasses={['lettterify-me', 'example_text']}
+          letterifyString={this.state.inputString}
+          animate={this.state.animate}
+          direction={this.state.currentDirection}
+          delay={this.state.currentDelay}
+          speed={this.state.currentSpeed}
+          translateValue={this.state.currentTranslate}
+          color={'0077be'}
+        />
         <Input 
+          inputType="text"
           inputString={this.state.inputString}
           placeholder={"String to animate"}
           handleInputChange={this.handleChange}
@@ -67,22 +79,14 @@ export default class Example extends Component<ExampleProps, ExampleState>{
           currentDirection={this.state.currentDirection}
           directionHandler={this.handleDirection}
         />
-        <button className="show_button" onClick={() => this.buttonClick()}>
-          show
-        </button>
-        <button className="show_button" onClick={() => this.buttonClick()}>
-          remove
-        </button>
-        <Letterify 
-          styleClasses={['lettterify-me', 'test2', 'test3']}
-          letterifyString={this.state.inputString}
-          animate={this.state.animate}
-          direction={this.state.currentDirection}
-          delay={this.state.currentDelay}
-          speed={this.state.currentSpeed}
-          translateValue={this.state.currentTranslate}
-          color={'0077be'}
-        />
+        <div className="example_buttons">
+          <button className="btn" onClick={() => this.buttonClick()}>
+            show
+          </button>
+          <button className="btn" onClick={() => this.buttonClick()}>
+            remove
+          </button>
+        </div>
       </div>
     );
   }

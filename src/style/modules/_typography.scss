@@ -259,6 +259,7 @@ a, p, .p {
   line-height: 1;
   cursor: pointer;
   text-align: center;
+  width: $buttonWidth;
 
   &:hover {
   background-color: $buttonHoverColor;
@@ -266,7 +267,7 @@ a, p, .p {
 }
 
 
-input[type="text"], textarea, select {
+input[type="text"], input[type="number"], textarea, select {
   color: $inputColor;
   -webkit-appearance: none;
   margin:0;

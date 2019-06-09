@@ -8,7 +8,16 @@ export default class Input extends Component<InputProps, InputState>{
 
   render(){
     return(
-      <input type="text" name={this.props.inputName} className="h5" value={this.props.inputString} placeholder={this.props.placeholder} onChange={this.props.handleInputChange} />
+      <div className="input__wrapper">
+        <label>{this.props.inputLabel}</label>
+        <input 
+          type={this.props.inputType}
+          name={this.props.inputName} 
+          className="h5" 
+          value={this.props.inputString} 
+          placeholder={this.props.placeholder} 
+          onChange={this.props.handleInputChange} />
+      </div>
     );
   }
 }

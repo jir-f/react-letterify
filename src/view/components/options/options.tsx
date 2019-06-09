@@ -14,18 +14,24 @@ export default class Example extends Component<OptionsProps, OptionsState>{
           handler={this.props.directionHandler}
         />
         <Input 
+          inputLabel="Delay in milliseconds"
+          inputType="number"
           inputString={`${this.props.currentDelay}`}
           inputName="delay"
           placeholder={"Delay in milliseconds"}
           handleInputChange={this.props.handleDelayChange}
         />
         <Input 
+          inputLabel="Speed in milliseconds"
+          inputType="number"
           inputString={`${this.props.currentSpeed}`}
           inputName="speed"
           placeholder={"Speed in milliseconds"}
           handleInputChange={this.props.handleSpeedChange}
         />
-        <Input 
+        <Input
+          inputLabel="Translate in pixels"
+          inputType="number" 
           inputString={`${this.props.currentTranslate}`}
           inputName="translate"
           placeholder={"Translate in pixels"}

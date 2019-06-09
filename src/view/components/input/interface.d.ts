@@ -1,4 +1,6 @@
 export interface InputProps {
+	inputLabel?: string,
+	inputType: string,
 	inputString: string,
 	placeholder: string,
 	inputName: string,
