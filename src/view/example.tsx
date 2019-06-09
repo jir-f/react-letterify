@@ -42,9 +42,9 @@ export default class Example extends Component<ExampleProps, ExampleState>{
     } as ExampleState);
   }
 
-  buttonClick = () => {
+  buttonClick = (state: boolean) => {
     this.setState({
-      animate: !this.state.animate
+      animate: state
     });
   }
 
@@ -80,10 +80,10 @@ export default class Example extends Component<ExampleProps, ExampleState>{
           directionHandler={this.handleDirection}
         />
         <div className="example_buttons">
-          <button className="btn" onClick={() => this.buttonClick()}>
-            show
+          <button className="btn" onClick={() => this.buttonClick(true)}>
+            animate
           </button>
-          <button className="btn" onClick={() => this.buttonClick()}>
+          <button className="btn" onClick={() => this.buttonClick(false)}>
             remove
           </button>
         </div>
