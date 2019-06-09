@@ -1,0 +1,1 @@
+export { default as Letterify } from './letterify/Letterify';

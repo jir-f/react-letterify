@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Input from './components/input';
-import Letterify from '../lib/Letterify';
+import { Letterify } from '../lib';
 
 
 interface ExampleProps {

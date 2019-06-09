@@ -1,0 +1,799 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Letterfiy tests animates letters direction down 1`] = `
+<div
+  className="no__styleclass"
+>
+  <span
+    className="letterify__word"
+  >
+    <span
+      className="letterify__word_char sc-bdVaJa hcTaWg"
+    >
+      T
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa gOUnmE"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dabUSe"
+    >
+      s
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hMnOzQ"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eCMijJ"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa gYAKYU"
+    >
+      l
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa efTlbf"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eGQHsI"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jrephA"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa laPWEY"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bZhrAE"
+    >
+      r
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cHWCqC"
+    >
+      i
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bKOdGn"
+    >
+      f
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dhihQU"
+    >
+      y
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fvfKLt"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bHhQrv"
+    >
+      c
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dtTVSS"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hHqYqQ"
+    >
+      m
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bqJSiK"
+    >
+      p
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hjbgGG"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eVODNt"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa exxOcb"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa iMtjQg"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa blcidZ"
+    >
+      t
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Letterfiy tests animates letters direction inplace 1`] = `
+<div
+  className="no__styleclass"
+>
+  <span
+    className="letterify__word"
+  >
+    <span
+      className="letterify__word_char sc-bdVaJa cLaLDe"
+    >
+      T
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa itTzVI"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fqcpQM"
+    >
+      s
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bhzkWh"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hSnJnP"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cYMYvq"
+    >
+      l
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cfSahW"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dcDfss"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa xFlAG"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hqOdAF"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa RkTM"
+    >
+      r
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa gkjZmh"
+    >
+      i
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hmUMwK"
+    >
+      f
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa lJqJa"
+    >
+      y
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fWBUwy"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dTaxIf"
+    >
+      c
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cSZuIy"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jamlIG"
+    >
+      m
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa gvgRZf"
+    >
+      p
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hTsBGE"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa djNknU"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eGnfTS"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jETsEM"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jbSYzh"
+    >
+      t
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Letterfiy tests animates letters direction left 1`] = `
+<div
+  className="no__styleclass"
+>
+  <span
+    className="letterify__word"
+  >
+    <span
+      className="letterify__word_char sc-bdVaJa hMHHWj"
+    >
+      T
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa kgUgcZ"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jFiffE"
+    >
+      s
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa kQwmkA"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa iqopFy"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa tVqBu"
+    >
+      l
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa iwFofl"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bjIpDa"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa lhJmIf"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jpJhEQ"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa ctzNEF"
+    >
+      r
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eAEWku"
+    >
+      i
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa diMUnC"
+    >
+      f
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa ccowdq"
+    >
+      y
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa edYkLV"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bYhoTR"
+    >
+      c
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa havoOp"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa djaScs"
+    >
+      m
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jlsQOz"
+    >
+      p
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cgzJzX"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa ibiyfb"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa NdcOL"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dKqaGE"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dkPaJU"
+    >
+      t
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Letterfiy tests animates letters direction right 1`] = `
+<div
+  className="no__styleclass"
+>
+  <span
+    className="letterify__word"
+  >
+    <span
+      className="letterify__word_char sc-bdVaJa hMHHWj"
+    >
+      T
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa kgUgcZ"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jFiffE"
+    >
+      s
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa kQwmkA"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa iqopFy"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa tVqBu"
+    >
+      l
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa iwFofl"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bjIpDa"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa lhJmIf"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jpJhEQ"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa ctzNEF"
+    >
+      r
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eAEWku"
+    >
+      i
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa diMUnC"
+    >
+      f
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa ccowdq"
+    >
+      y
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa edYkLV"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bYhoTR"
+    >
+      c
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa havoOp"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa djaScs"
+    >
+      m
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jlsQOz"
+    >
+      p
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cgzJzX"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa ibiyfb"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa NdcOL"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dKqaGE"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dkPaJU"
+    >
+      t
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Letterfiy tests animates letters direction up 1`] = `
+<div
+  className="no__styleclass"
+>
+  <span
+    className="letterify__word"
+  >
+    <span
+      className="letterify__word_char sc-bdVaJa jijbax"
+    >
+      T
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa equCyu"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa flXpaj"
+    >
+      s
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fAcXlv"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cHEUzU"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cPjnlW"
+    >
+      l
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa iiRvko"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jvvUzB"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eRhRdp"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dUbvBr"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa MNXvU"
+    >
+      r
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jHCDRG"
+    >
+      i
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa Nsnqe"
+    >
+      f
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa xFtUa"
+    >
+      y
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jlqkSF"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa pkpIe"
+    >
+      c
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa gXcryB"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jAThhg"
+    >
+      m
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jaVYMB"
+    >
+      p
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cTOzYa"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fzWWqL"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fYJiut"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fjRwVt"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa PLuVY"
+    >
+      t
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Letterfiy tests missing all reuired props 1`] = `
+<div
+  className="no__styleclass"
+/>
+`;
+
+exports[`Letterfiy tests missing animate boolean 1`] = `
+<div
+  className="no__styleclass"
+>
+  <span
+    className="letterify__word"
+  >
+    <span
+      className="letterify__word_char sc-bdVaJa cLaLDe"
+    >
+      T
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa itTzVI"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fqcpQM"
+    >
+      s
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa bhzkWh"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hSnJnP"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cYMYvq"
+    >
+      l
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cfSahW"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dcDfss"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa xFlAG"
+    >
+      t
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hqOdAF"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa RkTM"
+    >
+      r
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa gkjZmh"
+    >
+      i
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hmUMwK"
+    >
+      f
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa lJqJa"
+    >
+      y
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa fWBUwy"
+    >
+       
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa dTaxIf"
+    >
+      c
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa cSZuIy"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jamlIG"
+    >
+      m
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa gvgRZf"
+    >
+      p
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa hTsBGE"
+    >
+      o
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa djNknU"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa eGnfTS"
+    >
+      e
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jETsEM"
+    >
+      n
+    </span>
+    <span
+      className="letterify__word_char sc-bdVaJa jbSYzh"
+    >
+      t
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Letterfiy tests missing letterfiy string 1`] = `
+<div
+  className="no__styleclass"
+/>
+`;

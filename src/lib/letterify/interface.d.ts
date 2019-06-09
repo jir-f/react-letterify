@@ -4,10 +4,10 @@ interface LetterifyProps {
   animate: boolean, // A boolean to start/stop animation
   random?: boolean, // Random delays between letters
   delay?: number, // Delary between each letter
-  speed?: number, // Soeed of animation
+  speed?: number, // Speed of animation
   direction?: string, // Animation direction
   color?: string, // Text color
-  translateValue?: number, // The shifted value  of x or y
+  translateValue?: number, // The shifted value of x or y
 }
 
 interface LetterifyState {
