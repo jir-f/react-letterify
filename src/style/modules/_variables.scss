@@ -1,0 +1,68 @@
+/* Colors */
+$black: #2B2A29;
+$grey: #B0B0B0;
+$blue: #6BB6F4;
+$darkBlue: #3B87C6;
+$white: #fff;
+/***********/
+
+/* Font Sizes */
+$h1XL: 56px;
+$h2XL: 36px;
+$h3XL: 24px;
+$h4XL: 22px;
+$h5XL: 18px;
+$pXL: 14px;
+
+$h1L: 48px; 
+$h2L: 30px;
+$h3L: 20px;
+$h4L: 20px;
+$h5L: 16px;
+$pL: 12px;
+
+$h1M: 40px;
+$h2M: 26px;
+$h3M: 18px;
+$h4M: 18px;
+$h5M: 14px;
+$pM: 12px;
+
+$h1S: 28px;
+$h2S: 20px;
+$h3S: 16px;
+$h4S: 16px;
+$h5S: 14px;
+$pS:  12px;
+
+$pXS:12px;
+/* End */
+
+/* Global Line Heights */
+$lineHeightXL: 1.5;
+$lineHeightL: 1.4;
+$lineHeightM: 1.2;
+$lineHeightS: 1.1;
+/* End */
+
+/* Input variables */
+$inputColor: $black;
+$inputPadding: 10px 0px;
+$inputBorderBottom: 1px solid $black;
+/***********/
+
+/* Forms and Buttons */
+$buttonWidth: 100px;
+$buttonPadding: 10px 20px;
+$buttonTextColor: $white;
+$buttonColor: $blue;
+$buttonHoverColor: $darkBlue;
+$buttonBorderRadius: 10px;
+$buttonBorder: none;
+$buttonBoxShadow:none;
+/***********/
+
+/* Transition Times */
+$transitionTime: 0.3s;
+$transitionTime2: 0.5s;
+/***********/

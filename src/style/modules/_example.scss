@@ -4,4 +4,103 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 50vw;
+  margin: auto;
+  padding: 50px 100px;
+
+  &_text {
+    padding: 20px 0;
+    &:after{
+      content: '.';
+      visibility: hidden;
+    }
+  }
+
+  &_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .btn {
+      margin: 20px;
+    }
+  }
+
+  .input__wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 100%;
+  }
+}
+
+.letterify {
+  &__options{
+    width: 100%;
+    &_directions{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 20px 0;
+
+      &-checkboxes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .example{
+    max-width: 100%;;
+    width: 100%;
+    padding: 20px 100px;
+
+    .input__wrapper{
+      padding: 10px 0;
+    }
+  }
+  .letterify{
+    &__options_directions{
+      margin: 5px 0;
+      &-checkboxes{
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .example{
+    max-width: 100%;;
+    width: 100%;
+    padding: 20px;
+
+    .input__wrapper{
+      padding: 10px 0;
+    }
+  }
+  .letterify{
+    &__options_directions{
+      margin: 5px 0;
+      &-checkboxes{
+        margin: 5px 0;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 10px;
+        .letterify__checkbox{
+          width: 50%;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
 }
