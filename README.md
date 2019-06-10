@@ -60,3 +60,7 @@ Letterify left
 ![](src/gifs/React_letterify_left.gif)
 
 
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
