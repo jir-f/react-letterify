@@ -36,28 +36,28 @@ Examples:
 Letterify inplace
 
 
-![](src/gifs/React_letterify_inplace.gif)
+![](https://raw.githubusercontent.com/jir-f/react-letterify/master/src/gifs/React_letterify_inplace.gif)
 
 
 Letterify up
 
-![](src/gifs/React_letterify_up.gif)
+![](https://raw.githubusercontent.com/jir-f/react-letterify/master/src/gifs/React_letterify_up.gif)
 
 
 Letterify down
 
 
-![](src/gifs/React_letterify_down.gif)
+![](https://raw.githubusercontent.com/jir-f/react-letterify/master/src/gifs/React_letterify_down.gif)
 
 
 Letterfiy right
 
-![](src/gifs/React_letterify_right.gif)
+![](https://raw.githubusercontent.com/jir-f/react-letterify/master/src/gifs/React_letterify_right.gif)
 
 
 Letterify left
 
-![](src/gifs/React_letterify_left.gif)
+![](https://raw.githubusercontent.com/jir-f/react-letterify/master/src/gifs/React_letterify_left.gif)
 
 
 License
