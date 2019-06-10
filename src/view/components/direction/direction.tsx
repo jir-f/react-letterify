@@ -21,7 +21,7 @@ export default class Directions extends Component<DirectionProps, DirectionState
   render(){
     return(
       <div className="letterify__options_directions">
-        <h4>Direction</h4>
+        <label>Direction</label>
         <div className="letterify__options_directions-checkboxes">
           {this.renderOptions()}
         </div>

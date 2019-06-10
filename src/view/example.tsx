@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import Input from './components/input';
+import { ExampleProps, ExampleState } from './interface';
+import { Input } from './components/input';
+import { Options } from './components/options';
 import { Letterify } from '../lib';
+
 
 export default class Example extends Component<ExampleProps, ExampleState>{
   constructor(props: ExampleProps){
@@ -23,7 +26,7 @@ export default class Example extends Component<ExampleProps, ExampleState>{
         this.setState({ inputString: value });
         break;
       case 'delay':
-        this.setState({ currentDelay: +value });
+        this.setState({ currentDelay: parseFloat(value) });
         break;
       case 'speed':
         this.setState({ currentSpeed: +value });
@@ -43,9 +46,11 @@ export default class Example extends Component<ExampleProps, ExampleState>{
   }
 
   buttonClick = (state: boolean) => {
-    this.setState({
-      animate: state
-    });
+    if ( this.state.inputString.length > 0 ) {
+      this.setState({
+        animate: state
+      });
+    } 
   }
 
   render() {
