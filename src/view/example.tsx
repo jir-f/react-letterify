@@ -5,7 +5,7 @@ import { Options } from './components/options';
 import { Letterify } from '../lib';
 
 
-export default class Example extends Component<ExampleProps, ExampleState>{
+export default class Example extends Component<ExampleProps, ExampleState> {
   constructor(props: ExampleProps){
     super(props);
     this.state = {

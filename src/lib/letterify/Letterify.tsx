@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import { LetterifyStyle } from './Styled-Letterify';
 
 /// <reference path="./interface.d.ts"/>
 
 export default class Letterify extends Component<LetterifyProps, LetterifyState>{
+	private letterifyRef = createRef<HTMLDivElement>();
+
 	constructor(props: LetterifyProps) {
 		super(props);
 		this.state={opacity: 0,
@@ -105,7 +107,7 @@ export default class Letterify extends Component<LetterifyProps, LetterifyState>
 
 	render(){
 		return(
-			<div className={this.getLetterifyClasses()}>
+			<div className={this.getLetterifyClasses()} ref={this.letterifyRef}>
 				{this.letterify(this.props.letterifyString)}
 			</div>
 		);
