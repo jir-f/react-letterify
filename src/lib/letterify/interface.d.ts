@@ -1,4 +1,4 @@
-interface LetterifyProps {
+export interface LetterifyProps {
   letterifyString: string, // Passed in string to be letterified
   styleClasses?: string[], // CSS classes
   animate: boolean, // A boolean to start/stop animation
@@ -10,7 +10,7 @@ interface LetterifyProps {
   translateValue?: number, // The shifted value of x or y
 }
 
-interface LetterifyState {
+export interface LetterifyState {
   color: string,
   opacity: number,
   direction: string,
