@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { LetterifyStyle } from './Styled-Letterify';
-
-/// <reference path="./interface.d.ts"/>
+import { LetterifyProps, LetterifyState } from './interface';
 
 export default class Letterify extends Component<LetterifyProps, LetterifyState>{
 	constructor(props: LetterifyProps) {
